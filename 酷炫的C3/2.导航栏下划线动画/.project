@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>1.轮播图-C3动画旋转魔方</name>
+	<name>2.导航栏下划线动画</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,16 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1525248843550</id>
-			<name></name>
-			<type>26</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-node_modules</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1525347750460</id>
+			<id>1525347610266</id>
 			<name></name>
 			<type>26</type>
 			<matcher>
