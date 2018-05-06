@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>箭头和三角</title>
+	</head>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		div:first-child{
+			width: 100px;
+			height: 100px;		
+			overflow: hidden;
+			position: relative;
+		}
+		.arrow{
+			position: absolute;
+			width: 40px;
+			height: 40px;
+			top: 50px;
+			border-right: 1px solid #000;
+			border-bottom: 1px solid #000;
+			transform: rotate(-45deg) translateY(-50%);
+		}
+		.sj{
+			width: 0;
+			height: 0;
+			border-width: 100px;
+			border-style: solid;
+			border-color: red yellow green blue;
+		}
+	</style>
+	<body>
+		<div>
+			<span class="arrow"></span>	
+		</div>
+		
+		<div class="sj">
+			
+		</div>
+	</body>
+</html>
