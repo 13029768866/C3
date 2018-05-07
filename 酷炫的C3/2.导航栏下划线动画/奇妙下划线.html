@@ -16,16 +16,17 @@
 			display: flex;
 		}
 		
-		li {
+		a {
 			position: relative;
 			padding: 20px;
 			font-size: 24px;
 			color: #000;
-			line-height: 1;
+			/*line-height: 1;*/
 			cursor: pointer;
 		}
 		
-		li::before {
+		a::before {
+			
 			content: "";
 			position: absolute;
 			top: 0;
@@ -35,19 +36,19 @@
 			transition: .5s all linear;
 			border-bottom: 2px solid #000;
 		}
-		li:hover::before {
+		a:hover::before {
 			width: 100%;
 			top: 0;
 			left: 0;
 			transition-delay: 0.1s;
 			border-bottom-color: #000;
-			z-index: -1;
+			/*z-index: -1;*/
 		}
-		li:hover ~ li::before{
-			transition: .5s all linear;
+		a:hover ~ a::before{
+			/*transition: .5s all linear;*/
 			left: 0;
 		}
-		li:active{
+		a:active{
 			background-color: #000;
 			color: #fff;
 		}
@@ -58,11 +59,16 @@
 
 	<body>
 		<ul>
-			<li>不可思议的CSS</li>
+			<a href="#">不可思议的CSS</a>
+			<a href="#">不可思议的CSS</a>
+			<a href="#">不可思议的CSS</a>
+			<a href="#">不可思议的CSS</a>
+			<a href="#">不可思议的CSS</a>
+			<!--<li>不可思议的CSS</li>
 			<li>导航栏</li>
 			<li>光标小下划线跟随</li>
 			<li>PURE CSS</li>
-			<li>Nav Underline</li>
+			<li>Nav Underline</li>-->
 		</ul>
 
 
