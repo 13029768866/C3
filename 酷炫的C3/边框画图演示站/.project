@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>2.导航栏下划线动画</name>
+	<name>边框画图演示站</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,16 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1525347610266</id>
-			<name></name>
-			<type>26</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-node_modules</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1525851536540</id>
+			<id>1525857800985</id>
 			<name></name>
 			<type>26</type>
 			<matcher>
